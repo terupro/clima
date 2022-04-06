@@ -12,9 +12,7 @@ class WeatherApiClient {
     var response = await dio.get(url);
     if (response.statusCode == 200) {
       try {
-        final datas = response.data.map((e) => Weather.fromJson(e));
-        print(datas);
-        return datas;
+        return Weather.fromJson(response.data);
       } catch (e) {
         print(e);
         throw e;
