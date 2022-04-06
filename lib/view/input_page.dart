@@ -41,13 +41,15 @@ class InputPage extends ConsumerWidget {
                     textAlign: TextAlign.center,
                     decoration: InputDecoration(
                       hintText: '都市名を入力してください',
-                      hintStyle:
-                          const TextStyle(fontSize: 18, color: Colors.black54),
+                      hintStyle: kTextFieldLabelStyle,
+                      labelText: 'City Name',
+                      labelStyle: kTextFieldLabelStyle,
                       fillColor: Colors.white,
                       filled: true,
                       focusedBorder: kTextFieldStyle,
                       enabledBorder: kTextFieldStyle,
                     ),
+                    style: kTextFieldLabelStyle,
                   ),
                 ),
                 const SizedBox(height: 20.0),

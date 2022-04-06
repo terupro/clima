@@ -17,12 +17,7 @@ class ButtonWidget extends StatelessWidget {
       child: Text(
         label,
         style: const TextStyle(
-          color: Colors.white,
-          fontSize: 30,
-        ),
-      ),
-      style: ElevatedButton.styleFrom(
-        primary: Colors.blue,
+            color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),
       ),
     );
   }

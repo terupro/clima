@@ -18,12 +18,15 @@ class AddInfo extends StatelessWidget {
         children: [
           Text(
             label,
-            style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+            style: const TextStyle(
+              fontSize: 20.0,
+              fontWeight: FontWeight.w800,
+            ),
           ),
           const SizedBox(width: 10.0),
           Text(
             value,
-            style: const TextStyle(fontSize: 20.0),
+            style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.w500),
           ),
         ],
       ),
