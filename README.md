@@ -6,7 +6,7 @@ A new Flutter project.
 
 |InputPage|ResultPage|
 |---|---|
-|<img src="https://user-images.githubusercontent.com/92189386/161939336-50cf8a2e-c67b-4725-953e-fca8f02a3b6a.png" width="300">|<img src="https://user-images.githubusercontent.com/92189386/161939409-8dfe0f25-c617-4b41-a61e-2f9749d8e9bc.png" width="300">|
+|<img src="https://user-images.githubusercontent.com/92189386/161945677-15fdc6d6-90e1-4b31-b2b5-9f0ea0c30072.png" width="300">|<img src="https://user-images.githubusercontent.com/92189386/161945798-31b8a6e0-3b37-4423-8dfa-80dc4e1ff16d.png" width="300">|
 
 ## Getting Started
 
