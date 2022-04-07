@@ -9,7 +9,7 @@ final cityNameProvider = StateProvider((ref) => 'Tokyo');
 final repostitoryProvider = Provider((ref) => Repository());
 
 // APIの取得を非同期で管理するためのProviderを作成
-final dataProvider = FutureProvider<Weather>((ref) async {
+final dataProvider = FutureProvider.autoDispose<Weather>((ref) async {
   // Repositoryのインスタンスを取得
   final repository = ref.read(repostitoryProvider);
   // 都市名の状態を監視
