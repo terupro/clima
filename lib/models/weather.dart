@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
+// build_runnerで自動生成されるファイル
 part 'weather.freezed.dart';
 part 'weather.g.dart';
 
@@ -17,6 +18,7 @@ class Weather with _$Weather {
       _$WeatherFromJson(json);
 }
 
+// 詳しい詳細情報
 @freezed
 class WeatherMain with _$WeatherMain {
   factory WeatherMain({
