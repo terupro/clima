@@ -3,7 +3,7 @@ import 'package:clima/components/button_widget.dart';
 import 'package:clima/config/config.dart';
 import 'package:clima/models/weather.dart';
 import 'package:clima/repositories/repository.dart';
-import 'package:clima/view_models/states.dart';
+import 'package:clima/view_models/provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
