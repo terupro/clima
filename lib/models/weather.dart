@@ -9,7 +9,6 @@ part 'weather.g.dart';
 @freezed
 class Weather with _$Weather {
   factory Weather({
-    int? timezone,
     int? id,
     String? name,
     WeatherMain? main,
